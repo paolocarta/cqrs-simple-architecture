@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.3.243.32:5000/paolocarta/cqrs-simple-architecture-master
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: cqrs-simple-architecture-master
